@@ -1,13 +1,13 @@
-# def greet(name):
-#   print(f"Hello {name}")
+def greet(name):
+  print(f"Hello {name}")
 
-# greet("Ahmed")  
+greet("Ahmed")  
 
-# def add(a,b):
-#   return a + b
+def add(a,b):
+  return a + b
 
-# result = add(5,6)
-# print(result)
+result = add(5,6)
+print(result)
 
 def is_even(num):
   if num % 2 == 0:
