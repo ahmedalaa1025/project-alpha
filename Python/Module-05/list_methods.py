@@ -1,26 +1,26 @@
-# students = ["Ahmed", "Ali", "Sara"]
+students = ["Ahmed", "Ali", "Sara"]
 
-# students.append("Omar")
+students.append("Omar")
 
-# print(students)
+print(students)
 
-# students = ["Ahmed", "Ali", "Sara"]
+students = ["Ahmed", "Ali", "Sara"]
 
-# students.insert(1, "Mohamed")
+students.insert(1, "Mohamed")
 
-# print(students)
+print(students)
 
-# students = ["Ahmed", "Ali", "Sara"]
+students = ["Ahmed", "Ali", "Sara"]
 
-# students.remove("Ali")
+students.remove("Ali")
 
-# print(students)
+print(students)
 
-# students = ["Ahmed", "Ali", "Sara"]
+students = ["Ahmed", "Ali", "Sara"]
 
-# students.pop()  
+students.pop()  
 
-# print(students)
+print(students)
 
 students = ["Ahmed", "Ali", "Sara"]
 
