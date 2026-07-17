@@ -1,32 +1,32 @@
-# numbers = {10, 20, 30, 20, 10, 40}
+numbers = {10, 20, 30, 20, 10, 40}
 
-# print(numbers)
+print(numbers)
 
-# numbers = {10, 20, 30}
+numbers = {10, 20, 30}
 
-# numbers.add(20)
+numbers.add(20)
 
-# print(numbers)
+print(numbers)
 
-# numbers = {10, 20, 30}
+numbers = {10, 20, 30}
 
-# numbers.add(40)
+numbers.add(40)
 
-# print(numbers)
+print(numbers)
 
-# numbers = {10, 20, 30, 40}
+numbers = {10, 20, 30, 40}
 
-# numbers.remove(20)
+numbers.remove(20)
 
-# print(numbers)
+print(numbers)
 
-# set1 = {1, 2, 3}
+set1 = {1, 2, 3}
 
-# set2 = {3, 4, 5}
+set2 = {3, 4, 5}
 
-# result = set1.union(set2)
+result = set1.union(set2)
 
-# print(result)
+print(result)
 
 set1 = {1, 2, 3}
 
