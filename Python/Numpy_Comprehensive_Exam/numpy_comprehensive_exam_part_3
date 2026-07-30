@@ -1,0 +1,73 @@
+# Question (3)
+
+import numpy as np
+
+scores = np.array([
+    85, 90, 75, 90,
+    60, 95, 80, 90,
+    70, 85, 95, 60
+])
+
+print("===== Scores Report =====")
+
+print()
+
+scores_2d = np.reshape(scores , (4 , 3))
+
+print("Scores 2D:" , scores_2d)
+
+print()
+
+scores_2d_vertical = np.vsplit(scores_2d , 2)
+
+print("Upper Half:" , scores_2d_vertical[0])
+
+print()
+
+print("Lower Half:" , scores_2d_vertical[1])
+
+print()
+
+scores_2d_horizontal = np.hsplit(scores_2d , 3)
+
+print("Column Split:" , scores_2d_horizontal)
+
+print()
+
+merged = np.vstack((scores_2d_vertical[0] , scores_2d_vertical[1]))
+
+print("Merged:" , merged)
+
+print()
+
+unique_numbers , counts = np.unique(scores_2d , return_counts = True)
+
+print("Unique Scores:" , unique_numbers)
+
+print()
+
+print("Counts:" , counts)
+
+print()
+
+maximum_score = np.max(scores_2d)
+
+maximum_index = np.argmax(scores_2d)
+
+print("Maximum:" , maximum_score)
+
+print()
+
+print("Argmax:" , maximum_index)
+
+print()
+
+scores_equal_100 = np.any(scores_2d == 100)
+
+print("Any == 100:" , scores_equal_100)
+
+print()
+
+scores_higher_or_equal_60 = np.all(scores_2d >= 60)
+
+print("All >= 60:" , scores_higher_or_equal_60)
